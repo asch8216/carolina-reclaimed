@@ -7,7 +7,9 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-
+import { FaInstagram, FaTelegramPlane, FaFacebook } from "react-icons/fa"
+import { Link } from "gatsby"
+// import { instagram } from "react-icons/lib/fa/instagram"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./header"
@@ -46,9 +48,20 @@ const Layout = ({ children, pageInfo }) => (
             <Col className="footer-col">
               <footer>
                 <span>
-                  © {new Date().getFullYear()}, Built with
+                  {/* © {new Date().getFullYear()}, Built with
                   {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+                  <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+
+                  <a href="https://www.instagram.com/carolinareclaimed/">
+                    <FaInstagram color="afc0d7" size={40} />
+                  </a>
+
+                  <a href="mailto: asch8216@gmail.com">
+                    <FaTelegramPlane color="afc0d7" size={40} />
+                  </a>
+                  <a href="https://www.facebook.com/carolinareclaimed">
+                    <FaFacebook color="afc0d7" size={40} />
+                  </a>
                 </span>
               </footer>
             </Col>
