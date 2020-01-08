@@ -48,10 +48,6 @@ const Layout = ({ children, pageInfo }) => (
             <Col className="footer-col">
               <footer>
                 <span>
-                  {/* © {new Date().getFullYear()}, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a> */}
-
                   <a href="https://www.instagram.com/carolinareclaimed/">
                     <FaInstagram color="afc0d7" size={40} />
                   </a>
