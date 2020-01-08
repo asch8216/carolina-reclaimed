@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
-        borderBottom: "black",
+        // border: "black",
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -24,6 +24,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: "none",
           }}
         >
+          <img className="logo" src={require("../images/CRLogo.jpg")} />
           {siteTitle}
         </Link>
       </h1>

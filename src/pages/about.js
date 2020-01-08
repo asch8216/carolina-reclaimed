@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 
 const About = () => (
   <Layout pageInfo={{ pageName: "page-2" }}>
-    <SEO title="About, family" />
+    <SEO title="About" />
     <Row className="familyphoto">
-      <img src={require("../images/family.jpg")} />
+      <img src={require("../images/jk.jpg")} />
     </Row>
     <Col>
       <h1>Hi from the second page</h1>
