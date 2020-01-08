@@ -11,7 +11,7 @@ const About = () => (
       <img src={require("../images/jk.jpg")} />
     </Row>
     <Col>
-      <h1>Hi from the second page</h1>
+      <h1>Hello from the second page</h1>
       <p>Welcome to page 2</p>
       <Link to="/">Go back to the homepage</Link>
     </Col>
