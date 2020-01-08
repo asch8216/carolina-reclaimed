@@ -42,3 +42,19 @@ a.link-no-style {
     }
   }
 }
+.carouselimage {
+  // width: 640px;
+  // height: 640px;
+  border-radius: 25px;
+  background: white;
+  border: 1px black;
+  padding: 20px;
+  width: auto;
+  max-width: 80%;
+  height: auto;
+}
+
+// .carousel-inner > .item > img {
+//   width: 100px;
+//   height: 100px;
+// }

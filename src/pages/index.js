@@ -2,7 +2,6 @@ import React from "react"
 import { Row, Col, Container, div, ListGroup } from "react-bootstrap"
 import Carousel from "react-bootstrap/Carousel"
 import Layout from "../components/layout"
-// import photo from '../images/shiplap'
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -23,7 +22,8 @@ const IndexPage = () => (
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require("../images/gatsby-icon.png")}
+            className="carouselimage"
+            src={require("../images/coffeetable.jpg")}
             alt="First slide"
           />
           {/* <Carousel.Caption>
@@ -34,7 +34,8 @@ const IndexPage = () => (
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require("../images/gatsby-astronaut.png")}
+            className="carouselimage"
+            src={require("../images/roundtable.jpg")}
             alt="Third slide"
           />
 
@@ -46,7 +47,8 @@ const IndexPage = () => (
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require("../images/shiplap.jpg")}
+            className="carouselimage"
+            src={require("../images/picnictable.jpg")}
             alt="Third slide"
           />
 
