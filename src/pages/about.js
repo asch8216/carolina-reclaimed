@@ -12,7 +12,7 @@ const About = () => (
     </Row>
     <Col>
       <h1>Hello from the second page</h1>
-      <p>Welcome to page 2</p>
+      <p>Welcome to page 3</p>
       <Link to="/">Go back to the homepage</Link>
     </Col>
   </Layout>
