@@ -8,7 +8,7 @@ const About = () => (
   <Layout pageInfo={{ pageName: "page-2" }}>
     <SEO title="About" />
     <Row className="familyphoto">
-      <img src={require("../images/jk.jpg")} />
+      <img src={require("../images/JK.jpg")} />
     </Row>
     <Col>
       <h1>Hello from the second page</h1>
