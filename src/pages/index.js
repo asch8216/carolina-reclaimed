@@ -18,7 +18,31 @@ const IndexPage = () => (
       ]}
     />
     <Container className="text-center">
-      <Carousel>
+      <div>
+        <img
+          // className="d-block w-100"
+          className="carouselimage"
+          src={require("../images/coffeetable.jpg")}
+          alt="First slide"
+        />
+      </div>
+      {/* <div>
+        <img
+          className="d-block w-100"
+          className="carouselimage"
+          src={require("../images/roundtable.jpg")}
+          alt="Third slide"
+        />
+      </div> */}
+      {/* <Carousel.Item>
+        <img
+          className="d-block w-100"
+          className="carouselimage"
+          src={require("../images/picnictable.jpg")}
+          alt="Third slide"
+        />
+      </Carousel.Item> */}
+      {/* <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -43,7 +67,7 @@ const IndexPage = () => (
             alt="Third slide"
           />
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </Container>
   </Layout>
 )

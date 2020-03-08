@@ -52,7 +52,7 @@ const Layout = ({ children, pageInfo }) => (
                     <FaInstagram color="afc0d7" size={40} />
                   </a>
 
-                  <a href="mailto: asch8216@gmail.com">
+                  <a href="mailto: carolinareclaimed@hotmail.com">
                     <FaTelegramPlane color="afc0d7" size={40} />
                   </a>
                   <a href="https://www.facebook.com/carolinareclaimed">

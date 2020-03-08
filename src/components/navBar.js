@@ -32,7 +32,7 @@ const CustomNavbar = ({ pageInfo }) => {
                 <FaInstagram color="afc0d7" size={25} />
               </a>
 
-              <a href="mailto: CarolinaReclaimed@hotmail.com">
+              <a href="mailto: carolinareclaimed@hotmail.com">
                 <FaTelegramPlane color="afc0d7" size={25} />
               </a>
               <a href="https://www.facebook.com/carolinareclaimed">
