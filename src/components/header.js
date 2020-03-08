@@ -5,7 +5,8 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#f8f9fa`,
+      alignItems: "center",
+      background: `clear`,
     }}
   >
     <div
@@ -24,7 +25,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: "none",
           }}
         >
-          <img className="logo" src={require("../images/CRLogo.jpg")} />
+          <img className="logo" src={require("../images/favicon.jpg")} />
           {siteTitle}
         </Link>
       </h1>

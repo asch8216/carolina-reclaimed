@@ -1,4 +1,5 @@
 import React from "react"
+import Img from "gatsby-image"
 import Gallery from "react-grid-gallery"
 
 import Layout from "../components/layout"
